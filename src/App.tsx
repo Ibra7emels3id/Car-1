@@ -6,7 +6,6 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 
-
 function Router() {
   return (
     <Switch>
@@ -17,7 +16,6 @@ function Router() {
     </Switch>
   );
 }
-
 
 function App() {
   return (

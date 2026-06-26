@@ -53,8 +53,8 @@ export default function MapSection() {
                 <a href="https://wa.me/966530190046" target="_blank" rel="noopener noreferrer" className="block text-amber-500 text-lg font-bold hover:text-amber-400 transition-colors">
                   +966 53 019 0046
                 </a>
-                <a href="mailto:info@al-atqan.biz" className="block text-slate-400 hover:text-amber-500 transition-colors text-sm">
-                  info@al-atqan.biz
+                <a href="mailto:isb77t@gmail.com" className="block text-slate-400 hover:text-amber-500 transition-colors text-sm">
+                  isb77t@gmail.com
                 </a>
               </div>
             </div>

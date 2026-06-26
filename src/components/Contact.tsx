@@ -149,8 +149,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-sans-body text-slate-400 text-sm mb-2">البريد الإلكتروني</p>
-                  <a href="mailto:info@al-atqan.biz" className="text-amber-500 hover:text-amber-400 transition-colors font-bold">
-                    info@al-atqan.biz
+                  <a href="mailto:isb77t@gmail.com" className="text-amber-500 hover:text-amber-400 transition-colors font-bold">
+                    isb77t@gmail.com
                   </a>
                 </div>
                 <div>

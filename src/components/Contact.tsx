@@ -143,14 +143,14 @@ export default function Contact() {
               <div className="space-y-6">
                 <div>
                   <p className="font-sans-body text-slate-400 text-sm mb-2">الهاتف</p>
-                  <a href="tel:+966501234567" className="text-amber-500 hover:text-amber-400 transition-colors font-bold">
-                    +966 50 123 4567
+                  <a href="https://wa.me/966530190046" className="text-amber-500 hover:text-amber-400 transition-colors font-bold">
+                    +966 53 019 0046
                   </a>
                 </div>
                 <div>
                   <p className="font-sans-body text-slate-400 text-sm mb-2">البريد الإلكتروني</p>
-                  <a href="mailto:info@carservice.com" className="text-amber-500 hover:text-amber-400 transition-colors font-bold">
-                    info@carservice.com
+                  <a href="mailto:info@al-atqan.biz" className="text-amber-500 hover:text-amber-400 transition-colors font-bold">
+                    info@al-atqan.biz
                   </a>
                 </div>
                 <div>

@@ -19,7 +19,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2 order-last md:order-first hover:opacity-80 transition-opacity">
-            <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663499897206/CCkw3q6qpHFnwjd87y3LZR/atoan-logo_3291afab.png" alt="ATOAN" className="h-16 w-auto" />
+            <img src="/assets/atqan-final-logo.png" alt="ATOAN" className="h-16 w-auto" />
           </a>
 
           {/* Desktop Navigation */}

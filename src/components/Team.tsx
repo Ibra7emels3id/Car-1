@@ -3,28 +3,28 @@ import { Mail, Phone } from 'lucide-react';
 export default function Team() {
   const teamMembers = [
     {
-      name: 'أحمد محمد',
-      role: 'مدير الورشة الرئيسي',
+      name: 'م. أحمد العتيبي',
+      role: 'مدير المركز الرئيسي',
       image: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663499897206/CCkw3q6qpHFnwjd87y3LZR/team-mechanic-T4AWkKvAURpTfYcW8edDcy.webp',
-      bio: 'خبرة 20 سنة في صيانة السيارات',
+      bio: 'خبرة أكثر من 20 عاماً في إدارة مراكز صيانة السيارات المتكاملة.',
     },
     {
-      name: 'محمود علي',
-      role: 'فني محركات متخصص',
+      name: 'م. خالد الدوسري',
+      role: 'كبير مهندسي الميكانيكا',
       image: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663499897206/CCkw3q6qpHFnwjd87y3LZR/team-mechanic-2-jLYom2MnHgVUd4A798zGnN.webp',
-      bio: 'متخصص في إصلاح المحركات الحديثة',
+      bio: 'متخصص في تشخيص وإصلاح المحركات الحديثة وناقل الحركة.',
     },
     {
-      name: 'سارة أحمد',
-      role: 'مسؤولة خدمة العملاء',
+      name: 'م. فهد القحطاني',
+      role: 'أخصائي فحص وبرمجة',
       image: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663499897206/CCkw3q6qpHFnwjd87y3LZR/team-mechanic-3-WDk3e4bFhbN4gfLd4nDNSQ.webp',
-      bio: 'متخصصة في تقديم الخدمات الممتازة',
+      bio: 'خبير في استخدام أحدث أجهزة فحص الكمبيوتر وبرمجة الأنظمة.',
     },
     {
-      name: 'خالد سالم',
-      role: 'فني كهربائيات السيارات',
+      name: 'م. ياسر الحربي',
+      role: 'أخصائي أنظمة كهربائية',
       image: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663499897206/CCkw3q6qpHFnwjd87y3LZR/team-mechanic-1-GCrgPFuuNwr2xPYGmhNfrX.webp',
-      bio: 'متخصص في الأنظمة الكهربائية',
+      bio: 'متخصص في صيانة وإصلاح كافة الأنظمة الكهربائية والإلكترونية.',
     },
   ];
 
@@ -36,7 +36,7 @@ export default function Team() {
           <div className="accent-line mb-6"></div>
           <h2 className="heading-lg mb-6">فريقنا المتخصص</h2>
           <p className="body-lg">
-            فريق محترف وذو خبرة عالية جاهز لخدمتك بأفضل الطرق
+            نخبة من أفضل المهندسين والفنيين المتخصصين لضمان أعلى مستويات الجودة في صيانة سيارتك
           </p>
         </div>
 
@@ -61,13 +61,15 @@ export default function Team() {
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                   <div className="flex gap-3">
                     <a
-                      href="mailto:contact@carservice.com"
+                      href="mailto:info@al-atqan.biz"
                       className="p-2 bg-amber-500 text-slate-900 rounded-lg hover:bg-amber-400 transition-colors"
                     >
                       <Mail size={18} />
                     </a>
                     <a
-                      href="tel:+966501234567"
+                      href="https://wa.me/966530190046"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="p-2 bg-amber-500 text-slate-900 rounded-lg hover:bg-amber-400 transition-colors"
                     >
                       <Phone size={18} />

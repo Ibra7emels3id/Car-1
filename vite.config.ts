@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 import path from "node:path";
 
 export default defineConfig({
-  base: "./", // 🔥 مهم جداً للدومين
+  base: "./",
   plugins: [react(), tailwindcss()],
 
   resolve: {
@@ -22,5 +22,6 @@ export default defineConfig({
   server: {
     host: true,
     port: 3000,
+    allowedHosts: true, // Allow all hosts for the preview
   },
 });
